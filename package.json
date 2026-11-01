@@ -1,0 +1,15 @@
+{
+  "name": "papertrail-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A focused VitePress documentation system for GitHub Pages.",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "node scripts/fetch-password.mjs --allow-missing && vitepress dev docs",
+    "build": "node scripts/fetch-password.mjs && vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

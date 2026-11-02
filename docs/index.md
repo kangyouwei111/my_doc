@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: Papertrail
+  name: MyDocs
   text: 把复杂工作写成清晰、可执行的文档
   tagline: 一套轻量的团队知识库模板。用 Markdown 记录决策、沉淀流程，让每个人都能快速找到下一步。
   image:

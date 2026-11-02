@@ -17,6 +17,7 @@ export default defineConfig({
       { text: '指南', link: '/guide/what-is-papertrail' },
       { text: '工作流', link: '/workflow/overview' },
       { text: '参考', link: '/reference/cli' },
+      { text: 'Agent', link: '/agent/a1' },
       {
         text: '更多',
         items: [
@@ -58,6 +59,15 @@ export default defineConfig({
           items: [
             { text: 'CLI 命令', link: '/reference/cli' },
             { text: '配置项', link: '/reference/config' }
+          ]
+        }
+      ],
+      '/agent/': [
+        {
+          text: 'Agent',
+          items: [
+            { text: '从零开始理解Agent（一）', link: '/agent/a1' },
+            { text: '从零开始理解Agent（二）', link: '/agent/a2' }
           ]
         }
       ]

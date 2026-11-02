@@ -7,7 +7,7 @@ hero:
   tagline: 一套轻量的团队知识库模板。用 Markdown 记录决策、沉淀流程，让每个人都能快速找到下一步。
   image:
     src: /logo.svg
-    alt: Papertrail 文档标志
+    alt: MyDocs 文档标志
   actions:
     - theme: brand
       text: 开始阅读

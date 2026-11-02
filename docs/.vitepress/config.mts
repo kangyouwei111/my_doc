@@ -14,15 +14,15 @@ export default defineConfig({
     logo: '/logo.svg',
     siteTitle: 'Papertrail',
     nav: [
-      { text: '指南', link: '/guide/what-is-papertrail' },
-      { text: '工作流', link: '/workflow/overview' },
-      { text: '参考', link: '/reference/cli' },
-      { text: 'Agent', link: '/agent/a1' },
+      { text: '指南', link: '#protected:/guide/what-is-papertrail' },
+      { text: '工作流', link: '#protected:/workflow/overview' },
+      { text: '参考', link: '#protected:/reference/cli' },
+      { text: 'Agent', link: '#protected:/agent/a1' },
       {
         text: '更多',
         items: [
-          { text: '更新日志', link: '/changelog' },
-          { text: 'GitHub', link: 'https://github.com' }
+          { text: '更新日志', link: '#protected:/changelog' },
+          { text: 'GitHub', link: '#protected:https://github.com' }
         ]
       }
     ],
